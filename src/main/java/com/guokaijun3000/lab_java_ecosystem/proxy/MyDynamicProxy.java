@@ -1,4 +1,4 @@
-package com.guokaijun3000.lab_java_ecosystem.dynamic_proxy;
+package com.guokaijun3000.lab_java_ecosystem.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
