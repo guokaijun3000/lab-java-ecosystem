@@ -15,6 +15,8 @@ public class MyDynamicProxy {
 		);
 		// 调用代理方法
 		proxyHello.sayHello();
+
+		InvocationHandler invocationHandler = Proxy.getInvocationHandler(null);
 	}
 }
 

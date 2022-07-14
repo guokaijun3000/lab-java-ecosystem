@@ -11,4 +11,8 @@ public class TODO {
 //	JDK动态代理：基于Java反射机制实现，必须要实现了接口的业务类才能用这种办法生成代理对象。新版本也开始结合ASM机制。
 //	cglib动态代理：基于ASM机制实现，通过生成业务类的子类作为代理类。
 //	Java 发射机制的常见应用：动态代理（AOP、RPC）、提供第三方开发者扩展能力（Servlet容器，JDBC连接）、第三方组件创建对象（DI）……
+	// https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html
+		// done 看内容
+		// 玩一下示例
+	// https://www.baeldung.com/java-dynamic-proxies
 }
