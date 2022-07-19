@@ -18,4 +18,6 @@ public class TODO {
 	// java.lang.reflect.GenericDeclaration
 	// java.lang.Class
 	// java.lang.reflect.Type
+
+    // 擦除、转型、
 }
