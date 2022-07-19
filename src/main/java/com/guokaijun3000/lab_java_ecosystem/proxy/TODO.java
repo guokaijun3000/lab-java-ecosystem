@@ -1,5 +1,7 @@
 package com.guokaijun3000.lab_java_ecosystem.proxy;
 
+import java.lang.reflect.Proxy;
+
 /**
  * @author guokaijun
  * @date 2022/7/5
@@ -15,4 +17,14 @@ public class TODO {
 		// done 看内容
 		// 玩一下示例
 	// https://www.baeldung.com/java-dynamic-proxies
+
+	public static void main(String[] args) {
+		Foo foo = (Foo) DebugProxy.newInstance(new FooImpl());
+		foo.bar(null);
+
+		Class[] proxyInterfaces = new Class[] { Foo.class };
+		Foo foo2 = (Foo) Proxy.newProxyInstance(Foo.class.getClassLoader(),
+				proxyInterfaces,
+				new Delegator(proxyInterfaces, new Object[] { new FooImpl() }));
+	}
 }
