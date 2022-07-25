@@ -1,13 +1,7 @@
 package com.guokaijun3000.lab_java_ecosystem.proxy;
 
-import java.lang.reflect.Proxy;
-
-import com.guokaijun3000.lab_java_ecosystem.proxy.guides.DebugProxy;
-import com.guokaijun3000.lab_java_ecosystem.proxy.guides.Delegator;
-import com.guokaijun3000.lab_java_ecosystem.proxy.guides.Foo;
-import com.guokaijun3000.lab_java_ecosystem.proxy.guides.FooImpl;
-
 /**
+ * Java 代码相关内容
  * @author guokaijun
  * @date 2022/7/5
  */
