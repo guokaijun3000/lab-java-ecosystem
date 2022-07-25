@@ -1,4 +1,4 @@
-package com.guokaijun3000.lab_java_ecosystem.proxy;
+package com.guokaijun3000.lab_java_ecosystem.proxy.guides;
 
 import java.lang.reflect.*;
 
@@ -27,6 +27,8 @@ public class Delegator implements InvocationHandler {
         this.delegates = (Object[]) delegates.clone();
     }
 
+    // 将方法委托给其他方法执行
+    @Override
     public Object invoke(Object proxy, Method m, Object[] args)
         throws Throwable
     {

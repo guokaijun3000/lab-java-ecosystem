@@ -1,4 +1,4 @@
-package com.guokaijun3000.lab_java_ecosystem.proxy;
+package com.guokaijun3000.lab_java_ecosystem.proxy.guides;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -18,6 +18,8 @@ public class DebugProxy implements java.lang.reflect.InvocationHandler {
         this.obj = obj;
     }
 
+    // 在调用原方法前和原方法后，执行额外的方法。
+    @Override
     public Object invoke(Object proxy, Method m, Object[] args)
         throws Throwable
     {

@@ -4,6 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/** 一个JDK动态代理示例 */
 public class MyDynamicProxy {
 	public static void main(String[] args) {
 		HelloImpl hello = new HelloImpl();

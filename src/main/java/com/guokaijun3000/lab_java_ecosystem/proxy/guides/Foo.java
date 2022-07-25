@@ -1,4 +1,4 @@
-package com.guokaijun3000.lab_java_ecosystem.proxy;
+package com.guokaijun3000.lab_java_ecosystem.proxy.guides;
 
 import java.lang.reflect.InvocationTargetException;
 
